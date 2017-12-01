@@ -5,7 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Mappers\" />
+    <PackageReference Include="AutoMapper" Version="6.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BasicTestApp.Data\BasicTestApp.Data.csproj" />
+    <ProjectReference Include="..\BasicTestApp.Exceptions\BasicTestApp.Exceptions.csproj" />
+    <ProjectReference Include="..\BasicTestApp.Sales.Domain\BasicTestApp.Sales.Domain.csproj" />
+    <ProjectReference Include="..\BasicTestApp.Sales.Model\BasicTestApp.Sales.Model.csproj" />
   </ItemGroup>
 
 </Project>

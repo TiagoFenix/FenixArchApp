@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BasicTestApp.DataAccess
+namespace BasicTestApp.Util
 {
     public class Class1
     {

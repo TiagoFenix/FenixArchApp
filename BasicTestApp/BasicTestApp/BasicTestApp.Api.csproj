@@ -9,7 +9,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BasicTestApp.Data\BasicTestApp.Data.csproj" />
+    <ProjectReference Include="..\BasicTestApp.Sales.Services.Exceptions\BasicTestApp.Sales.Services.csproj" />
   </ItemGroup>
 
 </Project>

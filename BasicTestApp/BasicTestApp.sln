@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Api", "BasicTestApp\BasicTestApp.Api.csproj", "{58C8FFBB-1E16-4F9A-BEB1-0936C1B03CFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Api", "BasicTestApp\BasicTestApp.Api.csproj", "{58C8FFBB-1E16-4F9A-BEB1-0936C1B03CFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_UI", "1_UI", "{CB6D848C-CC07-4AC0-8A71-BD5AD89BDACB}"
 EndProject
@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_BoundContext", "3_BoundCo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_Data", "4_Data", "{027C1BA0-9028-40D9-88C2-87C3DAB07E20}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6_SharedKernel", "6_SharedKernel", "{50D1E6FA-388E-4EF5-986F-C1AB162ADE56}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5_SharedKernel", "5_SharedKernel", "{50D1E6FA-388E-4EF5-986F-C1AB162ADE56}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Tests", "0_Tests", "{0A7C1DDF-28F9-4213-8564-AC637F47B622}"
 EndProject
@@ -33,37 +33,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{58B91931
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{613D3FEC-27AF-40CB-8368-D85E15554FF1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5_DataAccess", "5_DataAccess", "{F8009506-AB88-4E8E-BE84-574E688E2808}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{59209E84-297F-498E-9C61-9575D6F24383}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptions", "Exceptions", "{7AB3BDA2-EC73-4786-816E-B412C715E066}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mappers", "Mappers", "{7216936C-B202-4CFE-9E43-C368EABB360C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Data", "BasicTestApp.Data\BasicTestApp.Data.csproj", "{F8B48E97-93CC-4DDE-8C52-0208144A1E77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Data", "BasicTestApp.Data\BasicTestApp.Data.csproj", "{F8B48E97-93CC-4DDE-8C52-0208144A1E77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.DataAccess", "BasicTestApp.DataAccess\BasicTestApp.DataAccess.csproj", "{329E7333-BBDE-4D79-B0A7-B15BCAEE7D08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Sales.Domain", "BasicTestApp.Sales.Domain\BasicTestApp.Sales.Domain.csproj", "{FD85FE3C-8D0F-4169-B37A-D6AC3310B1E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Sales.Domain", "BasicTestApp.Sales.Domain\BasicTestApp.Sales.Domain.csproj", "{FD85FE3C-8D0F-4169-B37A-D6AC3310B1E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Sales.Model", "BasicTestApp.Sales.Model\BasicTestApp.Sales.Model.csproj", "{EDF841AE-8C14-4DA9-884F-B1093BD65A77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Sales.Model", "BasicTestApp.Sales.Model\BasicTestApp.Sales.Model.csproj", "{EDF841AE-8C14-4DA9-884F-B1093BD65A77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Sales.Services", "BasicTestApp.Sales.Services.Exceptions\BasicTestApp.Sales.Services.csproj", "{80411E0F-6ACE-44F6-B119-9FA75C361D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Sales.Services", "BasicTestApp.Sales.Services.Exceptions\BasicTestApp.Sales.Services.csproj", "{80411E0F-6ACE-44F6-B119-9FA75C361D4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.Api", "BasicTestApp.Sales.Test.Api\BasicTestApp.Test.Api.csproj", "{79EC8EFD-D36C-4F6B-8060-EE454A65FA57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Test.Api", "BasicTestApp.Sales.Test.Api\BasicTestApp.Test.Api.csproj", "{79EC8EFD-D36C-4F6B-8060-EE454A65FA57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.Services", "BasicTestApp.Test.Services\BasicTestApp.Test.Services.csproj", "{AD372EC4-44FD-4A45-9C0B-37EB97C1278B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Test.Services", "BasicTestApp.Test.Services\BasicTestApp.Test.Services.csproj", "{AD372EC4-44FD-4A45-9C0B-37EB97C1278B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.Data", "BasicTestApp.Test.Data\BasicTestApp.Test.Data.csproj", "{117218F1-EE8E-4C8A-BCB9-8C2A79CFEE55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Test.Data", "BasicTestApp.Test.Data\BasicTestApp.Test.Data.csproj", "{117218F1-EE8E-4C8A-BCB9-8C2A79CFEE55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.Api.Integration", "BasicTestApp.Test.Integration\BasicTestApp.Test.Api.Integration.csproj", "{472FB229-BD54-4F6C-9E91-6FC6F2DA09AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Test.Api.Integration", "BasicTestApp.Test.Integration\BasicTestApp.Test.Api.Integration.csproj", "{472FB229-BD54-4F6C-9E91-6FC6F2DA09AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.Model", "BasicTestApp.Test.Model\BasicTestApp.Test.Model.csproj", "{28B783AE-C088-4EA5-BC9D-C3E047B860F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Test.Model", "BasicTestApp.Test.Model\BasicTestApp.Test.Model.csproj", "{28B783AE-C088-4EA5-BC9D-C3E047B860F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.SharedKernel", "BasicTestApp.Test.SharedKernel\BasicTestApp.Test.SharedKernel.csproj", "{F9A18175-9FAE-4DED-8A18-0D1759321796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Test.SharedKernel", "BasicTestApp.Test.SharedKernel\BasicTestApp.Test.SharedKernel.csproj", "{F9A18175-9FAE-4DED-8A18-0D1759321796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.Common", "BasicTestApp.Test.Common\BasicTestApp.Test.Common.csproj", "{8C1D13A0-1BE3-44EC-B51E-2E615186D40F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Test.Common", "BasicTestApp.Test.Common\BasicTestApp.Test.Common.csproj", "{8C1D13A0-1BE3-44EC-B51E-2E615186D40F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Util", "BasicTestApp.Util\BasicTestApp.Util.csproj", "{F7428DDB-18F3-4C09-9B10-7810F6CFF69B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Exceptions", "BasicTestApp.Exceptions\BasicTestApp.Exceptions.csproj", "{3DC734A1-80E2-477E-B1AD-AD86E03F5DA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.DataStore", "BasicTestApp.DataStore\BasicTestApp.DataStore.csproj", "{DBFC7762-4372-4B3C-BC74-902B8969C222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,10 +81,6 @@ Global
 		{F8B48E97-93CC-4DDE-8C52-0208144A1E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8B48E97-93CC-4DDE-8C52-0208144A1E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8B48E97-93CC-4DDE-8C52-0208144A1E77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{329E7333-BBDE-4D79-B0A7-B15BCAEE7D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{329E7333-BBDE-4D79-B0A7-B15BCAEE7D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{329E7333-BBDE-4D79-B0A7-B15BCAEE7D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{329E7333-BBDE-4D79-B0A7-B15BCAEE7D08}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FD85FE3C-8D0F-4169-B37A-D6AC3310B1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FD85FE3C-8D0F-4169-B37A-D6AC3310B1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD85FE3C-8D0F-4169-B37A-D6AC3310B1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -123,6 +121,18 @@ Global
 		{8C1D13A0-1BE3-44EC-B51E-2E615186D40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C1D13A0-1BE3-44EC-B51E-2E615186D40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C1D13A0-1BE3-44EC-B51E-2E615186D40F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7428DDB-18F3-4C09-9B10-7810F6CFF69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7428DDB-18F3-4C09-9B10-7810F6CFF69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7428DDB-18F3-4C09-9B10-7810F6CFF69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7428DDB-18F3-4C09-9B10-7810F6CFF69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC734A1-80E2-477E-B1AD-AD86E03F5DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC734A1-80E2-477E-B1AD-AD86E03F5DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC734A1-80E2-477E-B1AD-AD86E03F5DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC734A1-80E2-477E-B1AD-AD86E03F5DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFC7762-4372-4B3C-BC74-902B8969C222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFC7762-4372-4B3C-BC74-902B8969C222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFC7762-4372-4B3C-BC74-902B8969C222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFC7762-4372-4B3C-BC74-902B8969C222}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,7 +151,6 @@ Global
 		{7AB3BDA2-EC73-4786-816E-B412C715E066} = {613D3FEC-27AF-40CB-8368-D85E15554FF1}
 		{7216936C-B202-4CFE-9E43-C368EABB360C} = {613D3FEC-27AF-40CB-8368-D85E15554FF1}
 		{F8B48E97-93CC-4DDE-8C52-0208144A1E77} = {027C1BA0-9028-40D9-88C2-87C3DAB07E20}
-		{329E7333-BBDE-4D79-B0A7-B15BCAEE7D08} = {F8009506-AB88-4E8E-BE84-574E688E2808}
 		{FD85FE3C-8D0F-4169-B37A-D6AC3310B1E6} = {AEB802A5-9A5F-4B1A-A441-1D7F51978812}
 		{EDF841AE-8C14-4DA9-884F-B1093BD65A77} = {114A79AE-5C29-454D-888E-AD15414632CC}
 		{80411E0F-6ACE-44F6-B119-9FA75C361D4F} = {29BBD892-7C64-4A90-8A1C-61AA81D81D8A}
@@ -152,6 +161,9 @@ Global
 		{28B783AE-C088-4EA5-BC9D-C3E047B860F0} = {0A7C1DDF-28F9-4213-8564-AC637F47B622}
 		{F9A18175-9FAE-4DED-8A18-0D1759321796} = {0A7C1DDF-28F9-4213-8564-AC637F47B622}
 		{8C1D13A0-1BE3-44EC-B51E-2E615186D40F} = {0A7C1DDF-28F9-4213-8564-AC637F47B622}
+		{F7428DDB-18F3-4C09-9B10-7810F6CFF69B} = {50D1E6FA-388E-4EF5-986F-C1AB162ADE56}
+		{3DC734A1-80E2-477E-B1AD-AD86E03F5DA0} = {50D1E6FA-388E-4EF5-986F-C1AB162ADE56}
+		{DBFC7762-4372-4B3C-BC74-902B8969C222} = {027C1BA0-9028-40D9-88C2-87C3DAB07E20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {999BED44-7BA2-42EB-B3AA-A8BD37D14A98}

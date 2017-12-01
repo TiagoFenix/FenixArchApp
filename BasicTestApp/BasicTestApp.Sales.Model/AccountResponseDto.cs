@@ -1,20 +1,13 @@
 ﻿using System;
 
-namespace BasicTestApp.Sales.Domain
+namespace BasicTestApp.Sales.Model
 {
-    public class Account
+    public class AccountResponseDto
     {
-        public long id { get; set; }
-
         public string AccountName { get; set; }
 
         public DateTime Created { get; set; }
 
         public string CreatedBy { get; set; }
-
-        public Account()
-        {
-
-        }
     }
 }

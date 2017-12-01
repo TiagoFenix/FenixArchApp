@@ -1,10 +1,12 @@
-﻿using System;
+﻿using BasicTestApp.Sales.Model;
 using System.Collections.Generic;
-using System.Text;
 
-namespace BasicTestApp.Sales.Services.Interfaces
+namespace BasicTestApp.Sales.Services
 {
-    interface IAccountService
+    public interface IAccountService
     {
+        AccountResponseDto GetAccount(string userId);
+
+        AccountResponseDto CreateAccount(string userId, int userAge, decimal userCredit);
     }
 }
