@@ -34,7 +34,6 @@ namespace BasicTestApp.Test.Api
             return new SalesController(accountService);
         }
 
-
         [Fact(DisplayName = "Sales Controller Tests - Get Account By Name - Success")]
         public void GetAccountByName_Success()
         {
