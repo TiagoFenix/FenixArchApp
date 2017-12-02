@@ -4,16 +4,19 @@ using BasicTestApp.Sales.Services;
 using System;
 using BasicTestApp.Data;
 using BasicTestApp.Sales.Domain;
+using AutoMapper;
 
 namespace BasicTestApp.Sales.Services
 {
     public class AccountService : IAccountService
     {
         private IAccountData _accountData;
+        private IMapper _mapper;
 
-        public AccountService(IAccountData accountData)
+        public AccountService(IAccountData accountData, IMapper mapper)
         {
             _accountData = accountData;
+            _mapper = mapper;
         }
 
         public AccountResponseDto CreateAccount(string userId, int userAge, decimal userCredit)
@@ -24,9 +27,7 @@ namespace BasicTestApp.Sales.Services
         public AccountResponseDto GetAccount(string userId)
         {
              List<Account> accounts = _accountData.GetAll();
-
-
-            return new AccountResponseDto() { AccountName = "Test", Created = DateTime.Now, CreatedBy = "Fenix" };
+            return _mapper.Map<AccountResponseDto>(accounts[0]);
         }
     }
 }
