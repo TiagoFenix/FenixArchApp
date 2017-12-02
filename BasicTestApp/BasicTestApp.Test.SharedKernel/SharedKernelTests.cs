@@ -1,9 +1,10 @@
 using System;
 using Xunit;
 
-namespace BasicTestApp.Test.Common
+namespace BasicTestApp.Test.SharedKernel
+
 {
-    public class UnitTest1
+    public class SharedKernelTests
     {
         [Fact]
         public void Test1()

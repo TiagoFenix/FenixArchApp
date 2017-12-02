@@ -1,10 +1,9 @@
 using System;
 using Xunit;
 
-namespace BasicTestApp.Test.SharedKernel
-
+namespace BasicTestApp.Test.Data
 {
-    public class UnitTest1
+    public class SqlDataAccessTests
     {
         [Fact]
         public void Test1()

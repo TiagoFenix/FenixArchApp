@@ -3,7 +3,7 @@ using Xunit;
 
 namespace BasicTestApp.Test.Api.Integration
 {
-    public class UnitTest1
+    public class SalesIntegrationTests
     {
         [Fact]
         public void Test1()

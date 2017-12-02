@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Api", "BasicTestApp\BasicTestApp.Api.csproj", "{58C8FFBB-1E16-4F9A-BEB1-0936C1B03CFC}"
 EndProject
@@ -55,17 +55,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.Data", "B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.Api.Integration", "BasicTestApp.Test.Integration\BasicTestApp.Test.Api.Integration.csproj", "{472FB229-BD54-4F6C-9E91-6FC6F2DA09AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.Model", "BasicTestApp.Test.Model\BasicTestApp.Test.Model.csproj", "{28B783AE-C088-4EA5-BC9D-C3E047B860F0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.SharedKernel", "BasicTestApp.Test.SharedKernel\BasicTestApp.Test.SharedKernel.csproj", "{F9A18175-9FAE-4DED-8A18-0D1759321796}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Test.Common", "BasicTestApp.Test.Common\BasicTestApp.Test.Common.csproj", "{8C1D13A0-1BE3-44EC-B51E-2E615186D40F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Util", "BasicTestApp.Util\BasicTestApp.Util.csproj", "{F7428DDB-18F3-4C09-9B10-7810F6CFF69B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Util", "BasicTestApp.Util\BasicTestApp.Util.csproj", "{F7428DDB-18F3-4C09-9B10-7810F6CFF69B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.Exceptions", "BasicTestApp.Exceptions\BasicTestApp.Exceptions.csproj", "{3DC734A1-80E2-477E-B1AD-AD86E03F5DA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.Exceptions", "BasicTestApp.Exceptions\BasicTestApp.Exceptions.csproj", "{3DC734A1-80E2-477E-B1AD-AD86E03F5DA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTestApp.DataStore", "BasicTestApp.DataStore\BasicTestApp.DataStore.csproj", "{DBFC7762-4372-4B3C-BC74-902B8969C222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicTestApp.DataStore", "BasicTestApp.DataStore\BasicTestApp.DataStore.csproj", "{DBFC7762-4372-4B3C-BC74-902B8969C222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,10 +107,6 @@ Global
 		{472FB229-BD54-4F6C-9E91-6FC6F2DA09AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{472FB229-BD54-4F6C-9E91-6FC6F2DA09AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{472FB229-BD54-4F6C-9E91-6FC6F2DA09AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{28B783AE-C088-4EA5-BC9D-C3E047B860F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{28B783AE-C088-4EA5-BC9D-C3E047B860F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{28B783AE-C088-4EA5-BC9D-C3E047B860F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{28B783AE-C088-4EA5-BC9D-C3E047B860F0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9A18175-9FAE-4DED-8A18-0D1759321796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F9A18175-9FAE-4DED-8A18-0D1759321796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9A18175-9FAE-4DED-8A18-0D1759321796}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -158,7 +152,6 @@ Global
 		{AD372EC4-44FD-4A45-9C0B-37EB97C1278B} = {0A7C1DDF-28F9-4213-8564-AC637F47B622}
 		{117218F1-EE8E-4C8A-BCB9-8C2A79CFEE55} = {0A7C1DDF-28F9-4213-8564-AC637F47B622}
 		{472FB229-BD54-4F6C-9E91-6FC6F2DA09AD} = {0A7C1DDF-28F9-4213-8564-AC637F47B622}
-		{28B783AE-C088-4EA5-BC9D-C3E047B860F0} = {0A7C1DDF-28F9-4213-8564-AC637F47B622}
 		{F9A18175-9FAE-4DED-8A18-0D1759321796} = {0A7C1DDF-28F9-4213-8564-AC637F47B622}
 		{8C1D13A0-1BE3-44EC-B51E-2E615186D40F} = {0A7C1DDF-28F9-4213-8564-AC637F47B622}
 		{F7428DDB-18F3-4C09-9B10-7810F6CFF69B} = {50D1E6FA-388E-4EF5-986F-C1AB162ADE56}

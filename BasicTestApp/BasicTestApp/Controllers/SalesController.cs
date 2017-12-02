@@ -22,13 +22,13 @@ namespace BasicTestApp.Api.Controllers
             {
                 return Ok(_accountService.GetAccount(userId));
             }
-            catch (SalesExceptions)
+            catch (SalesExceptions se)
             {
-                throw;
+                throw se;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
+                return BadRequest(ex);
             }
         }
     }
